@@ -29,8 +29,7 @@ class User
 
      
         // query to insert record
-        $query = "INSERT INTO
-                    " . $this->table. "
+        $query = "INSERT INTO" . $this->table. "
                 SET first_name=:first_name, last_name=:last_name, email=:email , birthday=:birthday,occupation=:occupation,gender=:gender,password=:password";
     
         // prepare query
